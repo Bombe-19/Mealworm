@@ -41,6 +41,7 @@ To build a machine learning model that predicts **mealworm length (in mm)** base
 - **Random Forest Regressor**
 - **XGBoost Regressor** (Best performer)
 
+![UI](/public/Metrics.png)
 
 ## Prediction Flow
 
