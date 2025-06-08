@@ -63,6 +63,8 @@ new_data = pd.DataFrame([{
 new_data['date'] = pd.to_datetime(new_data['date'])
 new_data = new_data.sort_values('date')
 ```
+> Replace the values in the new_data for predicting existing mealworm length
+
 2. **Preprocess** and engineer features
 4. **Predict** the length using the trained model
 ```
