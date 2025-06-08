@@ -53,12 +53,12 @@ import joblib  # or pickle
 from datetime import datetime
 
 new_data = pd.DataFrame([{
-        'date': '02-10-2024',
-        'Temperature_C':0.259398496240601,
-        'Humidity_%': 0.759265673709733,
-        'CO2_ppm': 0.736666058505138,
-        'Ammonia_ppm': 0.493464052287581,
-        'Weight_g': 0.0911312471616098,
+        'date': '',
+        'Temperature_C':,
+        'Humidity_%': ,
+        'CO2_ppm': ,
+        'Ammonia_ppm': ,
+        'Weight_g':,
     }])
 new_data['date'] = pd.to_datetime(new_data['date'])
 new_data = new_data.sort_values('date')
